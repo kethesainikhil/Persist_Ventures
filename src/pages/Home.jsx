@@ -7,7 +7,7 @@ import MainMidSection from '../components/MainMidSection'
 import SecondMidSection from '../components/SecondMidSection'
 import OwnerSection from '../components/OwnerSection'
 import CardCarousel from '../components/CardCarousel'
-import Hiring from '../components/hiring'
+import Hiring from '../components/Hiring'
 import Footer from '../components/Footer'
 import roundimage from '../assets/roundimage.jpeg'
 const Home = () => {
