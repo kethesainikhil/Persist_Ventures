@@ -2,7 +2,7 @@ import React from 'react'
 import MartyWeiner from "../assets/MartyWeiner.jpeg"
 import TimDraper from "../assets/TimDraper.jpeg"
 import JohnDevadoss from "../assets/JohnDevadoss.jpeg"
-import Card from './card'
+import Card from './Card'
 import CardCarousel from './CardCarousel'
 const OwnerSection = () => {
   return (
