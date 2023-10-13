@@ -7,15 +7,19 @@ import {Link} from "react-router-dom"
 import "../index.css"
 const Navbar = (props) => {
     const[navbar,setNavbar] = useState(false);
+    const openEmailClientAndToggleNavbar = () => {
+      setNavbar(!navbar);
+      window.location.href = 'mailto:kethesainkhil@gmail.com';
+    };
   return (
     <div>
         <nav className='w-full bg-black fixed top-0 left-0 right-0 z-10'>
             <div className='justify-between px-4 md:mx-auto  lg:max-w-7xl md:items-center md:flex'>
                 <div>
                     <div className='flex items-center justify-between py-3 md:py-5 md:block'>
-                        <a href="/">
+                        <Link to="/">
                             <img src={logo} alt="ideaflowlogo"  height="20px" width="200px" className='ss:border-y-2 ss:block md:border-none md:mx-0 md:mt-2' />
-                        </a>
+                        </Link>
                         <div className='md:hidden'>
                             <button className='p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border' onClick={()=>setNavbar(!navbar)}>
                                 {navbar ? (
@@ -34,19 +38,17 @@ const Navbar = (props) => {
                     }`}>
                         <ul className='h-screen  md:h-auto items-center justify-center md:flex '>
                         <li  className="navbar-styling mt-0 pb-2 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0 md:-mt-4   md:hover:bg-transparent">
-                  <a href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link to="/" onClick={() => setNavbar(!navbar)}>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbar-styling mt-0 pb-2 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0 md:-mt-4   md:hover:bg-transparent">
-                  <a href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link to="/werhiring" onClick={() => setNavbar(!navbar)}>
                     {props.name}
-                  </a>
+                  </Link>
                 </li>
                 <li className="navbar-styling pb-2 mt-0 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0  md:-mt-4   md:hover:bg-transparent">
-                  <a href="#contact" onClick={() => setNavbar(!navbar)}>
-                    Contact
-                  </a>
+                <a href="mailto:<pleasecontact@ideaflow.io>;" onClick={()=>setNavbar(!navbar)}>Contact</a>
                 </li>
                         </ul>
                     </div>

@@ -60,11 +60,11 @@ const Hero = () => {
     </p>
     <div>
     <ul className='leading-9 sm:flex sm:text-2xl sm:font-bold sm:items-center sm:justify-end sm:mt-10 sm:ml-20 sm:pl-5'>
-      <li className='bg-teal-400 p-2 mb-2 font-extrabold max-w-xs sm:font-bold hover:bg-transparent hover:text-teal-400 hover:border-b-2  rounded-md mx-auto'>Try Ideaflow Notes</li>
-      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold  max-w-xs mx-auto '>iOS</li>
-      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'>Guide</li>
-      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'>Twitter</li>
-      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'>Newsletter</li>
+      <li className='bg-teal-400 p-2 mb-2 font-extrabold max-w-xs sm:font-bold hover:bg-transparent hover:text-teal-400 hover:border-b-2  rounded-md mx-auto'><a href="https://ideaflow.app/">Try Ideaflow Notes</a></li>
+      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold  max-w-xs mx-auto '><a href="https://apps.apple.com/us/app/ideaflow-notes/id6463830566">iOS</a></li>
+      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'><a href="https://onboarding.ideaflow.app/">Guide</a></li>
+      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'><a href="https://twitter.com/IdeaFlowGraphs">Twitter</a></li>
+      <li className='text-teal-400 p-2 font-extrabold hover:border-b-2 sm:font-bold max-w-xs mx-auto'><a href="https://kaib430d7vl.typeform.com/to/cg7ZCvD9">Newsletter</a></li>
     </ul>
     </div>
   </div>
