@@ -5,7 +5,7 @@ import MartyWeiner from "../assets/MartyWeiner.jpeg"
 import TimDraper from "../assets/TimDraper.jpeg"
 import JohnDevadoss from "../assets/JohnDevadoss.jpeg"
 // Import your Card component
-import Card from './card';
+import Card from './Card';
 
 const CardCarousel = () => {
   // Initialize Swiper
