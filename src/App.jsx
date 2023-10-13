@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './pages/Home'
-import Werhiring from './pages/werhiring'
+import Werhiring from './pages/Werhiring'
 import { Routes , Route } from 'react-router-dom'
 const App = () => {
   return (
