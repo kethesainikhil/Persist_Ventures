@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css';
 import MartyWeiner from "../assets/MartyWeiner.jpeg"
 import TimDraper from "../assets/TimDraper.jpeg"
-import Card from './card';
+import Card from './Card';
 import Kelvin from "../assets/KelvinBeachum.jpeg"
 import Joe from "../assets/JoeLonsdale.jpeg";
 import Naval from "../assets/NavalRavikant.jpeg";
